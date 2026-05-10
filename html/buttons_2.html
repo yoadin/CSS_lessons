@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        button{
+            cursor: pointer;
+        }
+        #subscribe-button{
+            background-color: red;
+            border: none;
+            /* height: 35px;
+            width: 100px; */
+            padding: 10px 16px;
+            color: white;
+            font-style: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 6px;
+            transition: opacity 0.15s;
+        }
+        #join-button{
+            background-color: white;
+            border-color: rgb(61, 193, 229);
+            border-width: 2px;
+            border-style: solid;
+            /* height: 35px;
+            width: 75px; */
+            padding: 9px 16px;
+            color: rgb(37, 163, 231);
+            font-weight: bold;
+            border-radius: 4px;
+            margin-right: 6px;
+            transition: background-color 0.15s,
+            color 0.15s;
+        }
+        #tweet-button{
+            background-color: rgb(61, 161, 242);
+            border: none;
+            /* height: 35px;
+            width: 100px; */
+            padding: 10px 16px;
+            color: white;
+            font-style: bold;
+            font-size: 16px;
+            border-radius: 18px;
+            transition: box-shadow 0.15s;
+        }
+        #subscribe-button:hover{
+           opacity: 0.6;
+        }
+        #subscribe-button:active{
+            background-color: rgba(236, 8, 8, 0.667);
+        }
+        #join-button:hover{
+           background-color: rgb(37, 163, 231);
+           color: white;
+           font-weight: bold;
+        }
+        #join-button:active{
+            background-color: rgba(37, 163, 231,0.3);
+        }#tweet-button:hover{
+           box-shadow: 5px 5px 5px rgba(107, 103, 103, 0.717);
+        }
+        #tweet-button:active{
+            background-color: rgba(92, 183, 239, 0.667);
+            box-shadow: 0px 0px 0px white;
+        }
+    </style>
+</head>
+<body>
+    <button id="subscribe-button">SUBSCRIBE</button>
+    <button id="join-button">Join</button>
+    <button id="tweet-button">Tweet</button>
+</body>
+</html>
